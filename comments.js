@@ -1,5 +1,4 @@
-// create web server application
-// to handle comments
+// Create web server
 
 // import modules
 const express = require('express');
@@ -49,4 +48,4 @@ app.post('/comments', (req, res) => {
     });
     // redirect to index.html
     res.redirect('/');
-});git add  
+}); 
